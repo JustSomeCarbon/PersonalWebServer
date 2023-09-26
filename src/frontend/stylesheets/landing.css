@@ -1,8 +1,31 @@
-.titleSection {
+#titleSection {
     margin: 25px;
     height: 100px;
-    width: 90%;
+    width: 95%;
     outline: solid 4px black;
     text-align: center;
 }
 
+.titleSection ul {
+    list-style: none;
+}
+
+.titleSection li {
+    display: inline;
+    margin: 5px;
+}
+
+.divCenter {
+    margin: auto;
+    border: 1px;
+    padding: 10px;
+}
+
+.introText {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#introduction, #introBody {
+    width: 90%;
+    padding-left: 10px;
+}
