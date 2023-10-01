@@ -1,0 +1,17 @@
+#doc-header {
+    margin: auto;
+    border: 1px;
+    padding: 10px;
+}
+
+#doc-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#doc-body p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-left: 10px;
+}
