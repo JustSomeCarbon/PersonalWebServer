@@ -1,3 +1,7 @@
+body {
+    background-color: #98CEF6;
+}
+
 #doc-header {
     margin: auto;
     border: 1px;
@@ -31,8 +35,17 @@
     text-align: center;
 }
 
+#doc-body {
+    background-color: #A1CCEC;
+}
+
 #doc-body p {
     font-family: Arial, Helvetica, sans-serif;
     width: 99%;
     padding-left: 10px;
+}
+
+#doc-body.projects {
+    width: 90%;
+    margin: auto;
 }
