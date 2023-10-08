@@ -10,8 +10,29 @@
     font-weight: bold;
 }
 
+#page-navigation {
+    width: 99%;
+    text-align: center;
+    margin: auto;
+}
+
+#page-navigation li {
+    list-style: none;
+    display: inline;
+    padding: 0 0.5rem;
+    min-width: 12rem;
+}
+
+#page-navigation li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+#degree-info {
+    text-align: center;
+}
+
 #doc-body p {
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 99%;
     padding-left: 10px;
 }

@@ -15,6 +15,23 @@
     margin: 5px;
 }
 
+#page-navigation {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#page-navigation li {
+    list-style: none;
+    display: inline;
+    padding: 0 0.5rem;
+    min-width: 12rem;
+}
+
+#page-navigation li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
 .divCenter {
     margin: auto;
     border: 1px;
